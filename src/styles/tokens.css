@@ -1,0 +1,35 @@
+/* Design tokens. Change colors here to re-theme the whole site. */
+:root,
+[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #0a0d14;
+  --text: #e9ecf2;
+  --muted: #8a93a6;
+  --line: #1c2230;
+  --panel: #0e1219;
+  --border: #29303f;
+  --faint: #5c6579;
+  --btn-bg: #edeff4;
+  --btn-text: #0a0d14;
+  --accent: #4c8df6;
+}
+
+[data-theme='light'] {
+  color-scheme: light;
+  --bg: #f7f8fa;
+  --text: #14171c;
+  --muted: #5b6470;
+  --line: #e1e4e9;
+  --panel: #ffffff;
+  --border: #cdd2da;
+  --faint: #9aa2ae;
+  --btn-bg: #14171c;
+  --btn-text: #f7f8fa;
+  --accent: #2563eb;
+}
+
+:root {
+  --font: 'IBM Plex Mono', 'DejaVu Sans Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --maxw: 900px;
+  --radius: 6px;
+}
