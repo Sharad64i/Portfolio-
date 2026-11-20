@@ -1,7 +1,6 @@
 # Sharad Krishna Singh — Portfolio
 
-React + Vite + plain CSS. No backend.
-
+React + Vite + plain CSS.
 ## Run locally
 ```bash
 npm install
@@ -9,13 +8,7 @@ npm run dev        # http://localhost:5173
 npm run build      # production build in /dist
 npm run preview    # preview the production build
 ```
-Requires Node.js 18 or newer.
 
-## Customize
-- **Content** (text, links, projects, dates): `src/data/content.js`
-- **Colors** (dark and light themes): `src/styles/tokens.css`
-- **Profile image**: replace `public/images/profile.png` (or change the `image` path in `content.js`). A square image of at least 600x600 px looks sharpest.
-- **Resume**: replace `public/resume.pdf` (keep the same file name).
 
 ## Structure
 ```
