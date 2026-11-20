@@ -37,6 +37,25 @@ export const skills = [
 ];
 
 export const projects = [
+    {
+    title: 'Pāne&PDF',
+    subtitle: 'Privacy-First PDF & Document Studio',
+    description:
+      'Browser-based tools for creating documents and working with PDFs, including merge, split, page organization, annotations, and PDF export. Files are processed locally in the browser; text edits use overlays.',
+    tech: ['React', 'Vite', 'PDF.js', 'pdf-lib', 'IndexedDB'],
+    links: [
+      { label: 'GitHub', href: 'https://github.com/Sharad64i/Pane-and-pdf' },
+      { label: 'Studio changes', href: 'https://github.com/Sharad64i/Pane-and-pdf/tree/codex/document-studio-pdf-selection-2026-11-20' },
+    ],
+  },
+  {
+    title: 'Bigram Book',
+    subtitle: 'Word-Level Language Model',
+    description:
+      'A Python word-level tokenizer and bigram next-token model trained on a book, with prompt-based text generation.',
+    tech: ['Python', 'NLP', 'Bigram model'],
+    links: [{ label: 'GitHub', href: 'https://github.com/Sharad64i/bigram-book' }],
+  },
   {
     title: 'DropVault',
     subtitle: 'Secure File Sharing Platform',
